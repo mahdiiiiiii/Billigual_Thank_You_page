@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Merci !</title>
+<title>Thank You!</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 body {
@@ -20,7 +20,9 @@ color: #333;
 </style>
 </head>
 <body>
-<h1>Merci pour votre participation ! / !شكراً على مشاركتكم</h1>
+<h1>Thank you!</h1>
+
+<!-- Meta Pixel Code -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -31,10 +33,13 @@ t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
 fbq('init', '1465636965413538');
+fbq('track', 'PageView');
 fbq('trackCustom', 'SondageComplete');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1465636965413538&ev=SondageComplete&noscript=1"
+src="https://www.facebook.com/tr?id=1465636965413538&ev=PageView&noscript=1"
 /></noscript>
+<!-- End Meta Pixel Code -->
+
 </body>
 </html>
